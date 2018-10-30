@@ -104,11 +104,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="high" destination="OLZ-Aa-69a" id="HgJ-5m-yad"/>
-                        <outlet property="location" destination="i5m-6E-pYw" id="qf2-6W-Ze2"/>
-                        <outlet property="low" destination="S1G-7e-UGI" id="ZQ6-UN-s1A"/>
-                        <outlet property="temperature" destination="knM-c3-CMU" id="dlj-g2-V1K"/>
-                        <outlet property="weatherImage" destination="iOD-Nc-GJC" id="S4v-hj-Ujh"/>
+                        <outlet property="high" destination="OLZ-Aa-69a" id="1QJ-lC-GSd"/>
+                        <outlet property="location" destination="i5m-6E-pYw" id="QAF-Uv-PBv"/>
+                        <outlet property="low" destination="S1G-7e-UGI" id="Sej-dP-Swz"/>
+                        <outlet property="temperature" destination="knM-c3-CMU" id="9zJ-iF-E5f"/>
+                        <outlet property="weatherImage" destination="iOD-Nc-GJC" id="EgJ-OP-4z7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -133,11 +133,12 @@
                         <viewLayoutGuide key="safeArea" id="LjJ-KJ-69A"/>
                     </view>
                     <connections>
-                        <outlet property="LocationSearchBar" destination="6yf-hL-ezR" id="bDb-ZJ-SiW"/>
                         <outlet property="locationSearch" destination="6yf-hL-ezR" id="bhF-sg-EUm"/>
+                        <segue destination="Rbb-cs-4Zl" kind="unwind" identifier="unwindToWeatherDisplay" unwindAction="unwindToWeatherDisplayWithSegue:" id="BA4-wZ-nXQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SE5-YG-VEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Rbb-cs-4Zl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1468" y="793"/>
         </scene>

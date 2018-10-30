@@ -18,7 +18,7 @@ class GeocodingData {
         case formattedAddress = "formatted_address"
         case geometry = "geometry"
         case location = "location"
-        case latitude = "late"
+        case latitude = "lat"
         case longitude = "lng"
     }
     
@@ -39,7 +39,8 @@ class GeocodingData {
     //Failable convenience initializer for breaking down data from JSON and creating geocodingdata
     
     convenience init?(json: JSON) {
-        guard let results = json[GeocodingDataKeys.results.rawValue].array
+        guard let results = json[GeocodingDataKeys.results.rawValue].array,
+            results.count > 0
             else {
             return nil
         }
