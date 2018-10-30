@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempest/GeocodingData.swift"
+            timestampString = "562513777.118764"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempest/View Controllers/WeatherDisplayViewController.swift"
+            timestampString = "562535147.0331531"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "WeatherDisplayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempest.ViewController.weatherImage.getter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Tempest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katelynpace/Desktop/Tempest/Tempest/View%20Controllers/WeatherDisplayViewController.swift"
+                  timestampString = "562522569.152283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempest.ViewController.weatherImage.setter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Tempest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katelynpace/Desktop/Tempest/Tempest/View%20Controllers/WeatherDisplayViewController.swift"
+                  timestampString = "562522569.1556081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempest.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Tempest.ViewController"
+                  moduleName = "Tempest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katelynpace/Desktop/Tempest/Tempest/View%20Controllers/WeatherDisplayViewController.swift"
+                  timestampString = "562522569.157638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempest.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Tempest.ViewController&gt;"
+                  moduleName = "Tempest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katelynpace/Desktop/Tempest/Tempest/View%20Controllers/WeatherDisplayViewController.swift"
+                  timestampString = "562522569.159699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "157">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempest/Utilities/APIManager.swift"
+            timestampString = "562535147.0332381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getWeather(latitude:longitude:onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
